@@ -14,7 +14,12 @@ data-platform-campaign-sql には、sqlの設定ファイルとして、以下�
 * data-platform-campaign-sql-header-doc-data.sql（データ連携基盤 キャンペーン - ヘッダ文書データ）
 * data-platform-campaign-sql-event-data.sql（データ連携基盤 キャンペーン - イベントデータ）
 * data-platform-campaign-sql-game-data.sql（データ連携基盤 キャンペーン - ゲームデータ）
-* data-platform-campaign-sql-partner-data.sql（データ連携基盤 キャンペーン - 取引先データ）
+* data-platform-campaign-sql-counter-data.sql（データ連携基盤 キャンペーン - カウンタデータ）
+* data-platform-campaign-sql-like-data.sql（データ連携基盤 キャンペーン - いいねデータ）
+* data-platform-campaign-sql-point-condition-element-data.sql（データ連携基盤 キャンペーン - ポイント条件要素データ）
+* data-platform-campaign-sql-point-transaction-data.sql（データ連携基盤 キャンペーン - ポイント取引データ）
+* data-platform-campaign-sql-questionnaire-data.sql（データ連携基盤 キャンペーン - アンケートデータ）
+* data-platform-campaign-sql-partner-data.sql（データ連携基盤 キャンペーン - パートナデータ）
 * data-platform-campaign-sql-address-data.sql（データ連携基盤 キャンペーン - 住所データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法

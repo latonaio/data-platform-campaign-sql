@@ -1,12 +1,12 @@
 CREATE TABLE `data_platform_campaign_game_data`
 (
-    `Campaign`                                          int(16) NOT NULL,
-    `Game`                                              int(16) DEFAULT NULL,
-    `CreationDate`                                      date NOT NULL,
-    `LastChangeDate`                                    date NOT NULL,
-    `IsReleased`                                        tinyint(1) DEFAULT NULL,
-    `IsCancelled`                                       tinyint(1) DEFAULT NULL,
-    `IsMarkedForDeletion`                               tinyint(1) DEFAULT NULL,
+    `Campaign`                       int(16) NOT NULL,
+    `Game`                           int(16) NOT NULL,
+    `CreationDate`                   date NOT NULL,
+    `LastChangeDate`                 date NOT NULL,
+    `IsReleased`                     tinyint(1) DEFAULT NULL,
+    `IsCancelled`                    tinyint(1) DEFAULT NULL,
+    `IsMarkedForDeletion`            tinyint(1) DEFAULT NULL,
     
     PRIMARY KEY (`Campaign`, `Game`),
     
